@@ -1,0 +1,150 @@
+
+/**
+ * HEADER AND NAV
+ */
+
+#logo {
+    height: 100px;
+    padding: 0;
+    margin-right: 30px;
+    margin-top: -15px;
+}
+
+
+.help-green {
+    color: green;
+}
+
+
+/**
+ * DASHBOARD PAGES
+ */
+
+h4.panel-title {
+    cursor: pointer;
+}
+
+/**
+ * TABLE and PIVOT TABLE
+ */
+
+/* do not display this stuff */
+select.pvtRenderer /*,*/
+/*.pvtTable thead th.pvtTotalLabel, */
+/*.pvtTable .pvtTotal.rowTotal, */
+/*.pvtTable .pvtGrandTotal*/ {
+    display: none;
+}
+
+select.pvtAggregator {
+    background-color: white;
+    padding: 10px;
+    padding-right: 15px;
+}
+
+.pvtAxisContainer, .pvtVals {
+    background-color: white;
+    padding: 10px;
+}
+
+.pvtAxisContainer.pvtUnused li span.pvtAttr {
+    border: 1px dashed gray;
+}
+.pvtAxisContainer li span.pvtAttr {
+    background-color: #fafafa;
+    border: none;
+    padding: 10px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+.pvtAxisLabel {
+    background-color: white;
+    font-size: 1.5em;
+}
+
+.pvtTable tbody {
+    font-size: 12px;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+table.pvtTable thead tr th, table.pvtTable tbody tr th {
+    background-color: #fafafa;
+}
+
+.pvtTeamSelector .teamEl {
+    display: inline-table;
+    min-width: 100px;
+    max-width: 100px;
+    font-size: 10px;
+}
+.pvtTeamSelector input[type="checkbox"]:checked:after {
+    /*background-color: green;
+    border-color: green;*/
+}
+
+.btn.pivotButton {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/**
+ * PAGE CONTROLS
+ */
+
+/*
+.variables-filter .local-controls {
+    position: fixed;
+}
+*/
+
+.variables-filter .local-controls .control-label {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+
+/**
+ * WIDGET CONTROLS
+ */
+.local-controls {
+    margin-bottom: 20px;
+}
+
+.rjsf .field .checkboxes {
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+
+
+/**
+ * LEAFLET
+ */
+.leaflet-control.legend {
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+    padding: 5px;
+    line-height: 20px;
+    color: #555;
+    border-radius: 4px;
+}
+.leaflet-control.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+    border-radius: 50%;
+}
+
+
+
+
+/**
+ * MISCELLANEA
+ */
+.autocomplete-highlighted {
+    background-color: #eee;
+}

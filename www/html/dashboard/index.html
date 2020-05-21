@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dashboard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="node_modules/pivottable/dist/pivot.min.css" />
+        <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+
+        <div id="dashboard"></div>
+
+        <script type="text/javascript" src="http://canvg.github.io/canvg/rgbcolor.js"></script>
+        <script type="text/javascript" src="http://canvg.github.io/canvg/StackBlur.js"></script>
+        <script type="text/javascript" src="http://canvg.github.io/canvg/canvg.js"></script>
+
+        <!-- a set of common libs are loaded outside browserify to avoid inefficiencies -->
+        <script src="node_modules/underscore/underscore-min.js"></script>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
+
+        <!-- TODO: do we need this? -->
+        <!--<script src="non_node_modules/jquery.inlineStyler.min.js"></script>-->
+
+        <script src="node_modules/pivottable/dist/pivot.min.js"></script>
+        <script src="node_modules/d3/d3.min.js"></script>
+        <script src="non_node_modules/dimple.v2.2.0.min.js"></script>
+        <script src="node_modules/leaflet/dist/leaflet.js"></script>
+
+        <!-- dashboard script -->
+        <script src="config.js"></script>
+        <script src="bundle.min.js"></script>
+
+        <!-- Global Site Tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107714766-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'UA-107714766-1');
+        </script>
+        <!-- End Google Analytics -->
+
+    </body>
+</html>

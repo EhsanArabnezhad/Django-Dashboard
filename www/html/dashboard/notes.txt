@@ -1,0 +1,36 @@
+Per contare le righe di codice scritte:
+
+find . -name '*.php' | xargs wc -l
+
+TODO generale:
+- menu gerarchici
+- visibility sensor
+- server side aggregations
+- riorganizzazione grafici
+
+Deploy TODO:
+- git pull
+- npm install
+- npm run watch
+- minify bundle.js > bundle.min.js
+
+Visione futuristica:
+
+<Dashboard>
+	<Page>
+		<Filters>
+		</Filters>
+
+		<Widget>
+			<Filters>
+
+			</Filters>
+
+			<PieChart>
+				<Legend></Legend>
+			</PieChart>
+
+			<ShareAction/> <DownloadAction/>
+		</Widget>
+	</Page>
+</Dashboard>
